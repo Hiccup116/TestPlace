@@ -33,7 +33,7 @@ int main() {
 	
 	if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
 	{
-		std::cout << "Failed to initialize GLAD" << std::endl;
+		 cout << "Failed to initialize GLAD" <<endl;
 		return -1;
 		//We pass GLAD the function to load the address of the OpenGL function pointers which is 
 		// OS-specific. GLFW gives us glfwGetProcAddress that 
